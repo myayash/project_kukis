@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap&subset=latin');
+
+body {
+    font-family: "Rokkitt", serif;
+}
+
+h1 {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    /*100 to 1000*/
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-size: 7rem;
+}
+
+p {
+    font-family: "Rokkitt", serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
