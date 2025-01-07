@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+.ibm-plex-sans-regular {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibm-plex-sans-bold {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ibm-plex-sans-regular-italic {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ibm-plex-sans-bold-italic {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* // <weight>: Use a value from 400 to 800 */
+
+.rethink-sans-reg {
+    font-family: "Rethink Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* variable in css start w 2 dashes */
+    --primary-color: #2C1408;
+    --secondary-color: #E4E3E2;
+    --tertiary-color: #FCFCFC;
+    --alert-color: #FD3030;
+    --cta-color: #3060FD;
+}
+
+.title {
+    font-family: "Rethink Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--primary-color);
+
+}
+
+.navheader {
+    font-family: "Rethink Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary-color);
+}
+
+h1,
+h3 {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
