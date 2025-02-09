@@ -1,0 +1,23 @@
+{
+  "name": "project_kukis",
+  "version": "1.0.0",
+  "description": "inspired by frothe.id cookies store where as per project initiated needs a website that provides orders outside of 3rd party apps and more in-house service based, reducing third party costs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myayash/project_kukis.git"
+  },
+  "author": "Ayas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myayash/project_kukis/issues"
+  },
+  "homepage": "https://github.com/myayash/project_kukis#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
