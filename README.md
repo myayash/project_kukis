@@ -4,9 +4,11 @@ inspired by frothe.id cookies store where as per project initiated needs a websi
 ## todo
 [] setup base structure
 
-## optional
-[] emphasize sustainable products or practices
-[] support ecofriendly businesses and promote sustainable consumer choices / acts
-
 ## notes
 in the form of a web app for efficiency in accessibility and dev environment i.e. no need specific os support
+
+## optional
+[] emphasize sustainable products or practices 
+[] support ecofriendly businesses and promote sustainable consumer choices / acts
+
+### dont forget to configure branch protection rule [done]
