@@ -1,6 +1,6 @@
 ## todo
 
-[] setup build process
+[] continue up to running build process
 
 ## optional
 
