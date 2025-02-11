@@ -1,6 +1,6 @@
 ## todo
 
-[] continue up to running build process
+[] develop further
 
 ## optional
 
