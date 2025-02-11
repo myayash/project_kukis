@@ -1,5 +1,6 @@
+// entry pointt
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import App from "./App";
 
 // create root container for rendering react components,
