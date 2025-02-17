@@ -1,41 +1,30 @@
 {
   "name": "project_kukis",
   "version": "1.0.0",
-  "description": "inspired by frothe.id cookies store where as per project initiated needs a website that provides orders outside of 3rd party apps and more in-house service based, reducing third party costs.",
+  "description": "simple cookies store web app",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode development",
-    "build": "webpack --mode production",
-    "nx-dev": "next dev",
-    "nx-build": "next build",
-    "nx-start": "next start"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/myayash/project_kukis.git"
-  },
-  "author": "Ayas",
+  "author": "myayash",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/myayash/project_kukis/issues"
-  },
-  "homepage": "https://github.com/myayash/project_kukis#readme",
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.6",
     "next": "^15.1.7",
+    "postcss": "^8.5.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.8",
-    "@babel/preset-env": "^7.26.8",
-    "@babel/preset-react": "^7.26.3",
-    "autoprefixer": "^10.4.20",
-    "babel-loader": "^9.2.1",
-    "html-webpack-plugin": "^5.6.3",
-    "postcss": "^8.5.2",
-    "tailwindcss": "^4.0.6",
-    "webpack": "^5.97.1",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.0"
+    "@types/node": "22.13.4",
+    "@types/react": "19.0.9",
+    "eslint": "9.20.1",
+    "eslint-config-next": "15.1.7",
+    "typescript": "5.7.3"
   }
 }
